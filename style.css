@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* overflow: auto; */
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #fffcee;
+}
+
+/* header section */
+.navbar-link-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.link-container ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-container ul li {
+  padding: 15px;
+  list-style: none;
+}
+.link-container ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
+
+.link-container ul li a:hover {
+  color: #037cb5;
+  text-decoration: underline;
+  font-weight: 400;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 19vw;
+  padding: 5px;
+  height: 10vh;
+}
+.search > input {
+  padding: 7px;
+  border-radius: 3px;
+  border: 2px solid #037cb5;
+}
+
+.search-button {
+  padding: 8px 10px 8px 10px;
+  margin-left: 5px;
+  font-size: 15px;
+  border: 0px;
+  border-radius: 5px;
+  background-color: #0d7d6c;
+  color: #fff;
+  cursor: pointer;
+}
+.search-button:hover {
+  background-color: transparent;
+  color: black;
+  border: 2px solid #0d7d6c;
+}
+
+/*  Main section  */
+
+.hero-section {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.left-side-of-heroSection {
+  padding-left: 25px;
+  height: 40vh;
+}
+
+.left-side-of-heroSection h1 {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.left-side-of-heroSection p {
+  margin: 12px 0px 12px 0px;
+}
+
+.left-side-of-heroSection button {
+  padding: 10px 16px 10px 16px;
+  font-size: 1rem;
+  font-weight: 400;
+  cursor: pointer;
+  margin-top: 22px;
+  background-color: #3e783e;
+  color: #fff;
+  border: 0px;
+  border-radius: 7px;
+}
+
+.left-side-of-heroSection button:hover {
+  border: 2px solid #3e783e;
+  background-color: transparent;
+  color: black;
+}
+
+.right-side-of-heroSection {
+  width: 45vw;
+  padding-left: 100px;
+  padding-top: 10px;
+  margin-top: 30px;
+}
+
+#img1 {
+  width: 14vw;
+}
+#img2 {
+  width: 16vw;
+}
+#img3 {
+  width: 31vw;
+  height: 26vh;
+}
